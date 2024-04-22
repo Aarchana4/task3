@@ -1,0 +1,77 @@
+/*what is wildcard selector"*" , if we take this option it will overwrite everything we worked so far and show what specificiations we mentioned with wild card*/
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box;*/
+    box-sizing: 30em;
+}
+
+body {
+    /*width: 100vw;*/
+    width: 100%;
+    min-height: 100vh;
+}
+
+
+/*when width is full 100 it streches */
+
+
+/*css units*/
+
+
+/*p 
+{
+    font-size: 32px;
+}*/
+
+
+/*this is the absolute one so showing no change and we need absolute*/
+
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units*/
+
+
+/*header {
+    border: 10px rgba(255, 0, 0, 0.767);
+    width :100%;
+}*/
+
+h1 {
+    border: 2px;
+    border-color: red;
+    width: 100%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+
+/*font size for elements we wouldn't set that on root element html instead we want our browser to handle it*/
+
+
+/*even if set to main browser it won't work because font is size is set to root (html) browser to list in accordance to it*/
+
+
+/*main {
+    font-size: 2 rem;
+}
+
+or */
+
+main {
+    width: 50vw;
+    background-color: skyblue;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2em;
+}
+
+
+/*character size width used for magaazines*/
+
+p {
+    font-size: 2em;
+    width: 40ch;
+}
